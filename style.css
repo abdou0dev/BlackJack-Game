@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    text-align: center;
+    /* color: #fff; */
+    background: url("image/background.jpg");
+    background-size: cover;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#hero {
+    
+    margin: auto;
+}
+
+h1 {
+    color: goldenrod;
+    font-size: 50px;
+    margin-top: 0;
+}
+
+#player-info {
+    background: #fff;
+    max-width: 94px;
+    margin: auto;
+    border-radius: 5px;
+    text-align: left;
+    font-size: 10px;
+    font-weight: bolder;
+    padding: 0.5px 2px;
+    color: black;
+}
+
+.name {
+    display: flex;
+}
+
+input {
+    width: 50px;
+    height: 10px;
+    margin-top: 7px;
+    font-weight: bolder;
+}
+
+/* p {
+    -webkit-text-stroke-width: 0.06px;
+    -webkit-text-stroke-color: goldenrod;
+} */
+
+#container {
+    max-width: 600px;
+    margin: 100px auto;
+    background: url("image/table.jpg");
+    background-size: cover;
+    padding: 50px 0;
+    border: 4px solid black;
+    border-radius: 12px;
+    color: #fff;
+    
+}
+
+#message-el {
+    font-style: italic;
+}
+
+button {
+    display: block;
+    margin: 4px auto;
+    padding: 4px 30px;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    color: #016f32;
+}
+
+.new-card {
+    padding-left: 38px;
+    padding-right: 38px;
+}
+
+#error-el {
+    font-size: 10px;
+    color: red;
+}
